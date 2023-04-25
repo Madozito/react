@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import MyComponent from './components/MyComponent';
 function App() {
   return (
     <div className="App">
@@ -9,14 +9,8 @@ function App() {
         <p>
           Welcome to my React GitHub Repo by Juan Martin Madoz
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/*Here you import MyComponent like this: */}
+        <MyComponent/>
       </header>
     </div>
   );
